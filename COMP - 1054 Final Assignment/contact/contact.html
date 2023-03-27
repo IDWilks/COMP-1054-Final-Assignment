@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A day on the Farm</title>
+        <!--Browser Tab Icon/ Favourite bar-->
+        <link rel="SHORTCUT ICON" href="../style/img/WBFarmbrowsertab.ico" type="image/x-icon" />
+        <link rel="ICON" href="../style/img/WBFarmbrowsertab.ico" type="image/ico" />
+    <!--Link Css-->
+    <link rel="stylesheet" href="../style/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <menu>
+                <!--Menu items-->
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a href="../produce/produce.html">Produce</a></li>
+                <div></div><!--Farm logo here-->
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../about/about.html">About Us</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <!--top title section, shadow text-->
+        <section class="contactform">
+            <div>
+                <h2>
+                    For any questions please fill out the form below
+                </h2>
+            </div>
+        </section> 
+        <section class="contactform">
+            <!--Customer service request form, fname, lname, email, text-->
+            <form action="somephpfile.php" method="post" enctype="mulitipart/form-data">
+                <div>
+                    <input type="text" name="Fname" required placeholder="First Name">
+                </div>
+                <div>
+                    <input type="text" name="Lname" required placeholder="Last Name">
+                </div>
+                <div>
+                    <input type="email" name="email" required placeholder="Your Email">
+                </div>
+                <div>
+                    <textarea cols="60" placeholder="Please let us know how we can help"></textarea>
+                </div>
+                <div>
+                    <!--Submit button, retext to send-->
+                    <input type="Submit" name="Submit" value="Send">
+                </div>
+            </form>
+        </section>      
+    </main>
+    <footer>
+        <section class="contact">
+            <p>Contact us</p>
+            <input type="email" placeholder="Please enter your Email">
+            <a href="../contact/contact.html"><input type="submit"></a>
+        </section>
+        <section class="compinfo">
+            <p>Westbend Farm</p>
+            <p>Wilks & Sons</p>
+            <p>Est. 2010</p>
+            <p>Severn, Ontario, Canada</p>
+        </section>
+    </footer>
+</body>
